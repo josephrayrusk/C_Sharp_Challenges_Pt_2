@@ -48,7 +48,7 @@ namespace HeroMonsterClasses
         // Show who won
         private void printStats(Character character)
         {
-            labelResult.Text += String.Format("Name: {0} - Health: {1} - AttackBonus: {3}<p />", character.Name, character.Health, character.AttackBonus.ToString());
+            labelResult.Text += String.Format("Name: {0} - Health: {1} - AttackBonus: {2}<p />", character.Name, character.Health, character.AttackBonus.ToString());
         }
 
         // Show the battle
